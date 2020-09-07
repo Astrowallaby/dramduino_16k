@@ -24,4 +24,4 @@ This code should work on any regular Arduino, but has only been tested on a knoc
  +5v -- Red LED -- 470k resistor --- D11
  +5v -- Green LED -- 470k resistor - D12
        
-Power may be tapped off an ATX power supply; connect a small resistive load (~5w) across +5v and ground, and tap the needed voltages from their respective pins. If you're driving the Arduino off of USB you don't need to power the Arduino with the +5v line, but connect the ground pin to the same common used by the PSU and GND on the 4116. Short the ATX power control pin to ground to start.
+Power may be tapped off an ATX power supply; connect a small resistive load (~5w) across +5v and ground, and tap the needed voltages from their respective pins. If you're driving the Arduino off of USB you don't need to power the Arduino with the +5v line, but connect the ground pin to the same common used by the PSU and GND on the 4116. Short the ATX power control pin to ground to start. If the Arduino is booted before the power supply is on, hit the reset button to begin test.
