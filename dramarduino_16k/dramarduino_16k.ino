@@ -7,8 +7,8 @@
 #define WE          A1  // A1  "WE - 3"
 
 #define XA0         A3  // A3 "A0 - 5"
-#define XA1         A  // A6 "A1 - 7"
-#define XA2         A4  // A5 "A2 - 6"
+#define XA1         A5  // A5 "A1 - 7"
+#define XA2         A4  // A4 "A2 - 6"
 #define XA3          5  // D5 "A3 - 12"
 #define XA4          4  // D4 "A4 - 11"
 #define XA5          3  // D3 "A5 - 10"
@@ -202,5 +202,3 @@ void loop() {
   interrupts(); Serial.print("."); Serial.flush(); noInterrupts(); fill(1);
   ok();
 }
-
-
