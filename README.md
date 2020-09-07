@@ -9,19 +9,19 @@ This version has been modified for the 7-bit RAS/CAS addresses of the smaller 16
 
 This code should work on any regular Arduino, but has only been tested on a knockoff Arduino Nano board. The pin designations in the original code have been redone to match the current numbering scheme in the Arduino IDE, and are arranged to facilitate straight-across wiring between the Nano package and a 4116 on a breadboard. Connect as follows:
 
-          4116
-       +-------+
- -5v --|1    16|-- GND
- A0  --|2    15|-- D8
- A1  --|3    14|-- D7
- A3  --|4    13|-- D6
- A4  --|5    12|-- D5
- A5  --|6    11|-- D4
- A6  --|7    10|-- D3
-+12v --|8     9|-- +5v
-       +-------+
-       
-+5v -- Red LED -- 470k resistor --- D11
-+5v -- Green LED -- 470k resistor - D12
+>           4116
+>        +-------+
+>  -5v --|1    16|-- GND
+>  A0  --|2    15|-- D8
+>  A1  --|3    14|-- D7
+>  A3  --|4    13|-- D6
+>  A4  --|5    12|-- D5
+>  A5  --|6    11|-- D4
+>  A6  --|7    10|-- D3
+> +12v --|8     9|-- +5v
+>        +-------+
+>       
+> +5v -- Red LED -- 470k resistor --- D11
+> +5v -- Green LED -- 470k resistor - D12
        
 Power may be tapped off an ATX power supply; connect a small resistive load (~5w) across +5v and ground, and tap the needed voltages from their respective pins. If you're driving the Arduino off of USB you don't need to power the Arduino with the +5v line, but connect the ground pin to the same common used by the PSU and GND on the 4116.
