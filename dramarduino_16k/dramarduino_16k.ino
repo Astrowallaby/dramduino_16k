@@ -135,8 +135,8 @@ void fillx(int v) {
   v %= 1;
   for (c = 0; c < (1<<bus_size); c++) {
     green(g? HIGH : LOW);
-    Serial.println(c, HEX);
-    Serial.flush();
+    // Serial.println(c, HEX);
+    // Serial.flush();
     for (r = 0; r < (1<<bus_size); r++) {
       writeAddress(r, c, v);
       if (v != readAddress(r, c))
