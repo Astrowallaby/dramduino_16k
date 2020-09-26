@@ -7,7 +7,7 @@ https://forum.defence-force.org/viewtopic.php?p=15035
 
 This version has been modified for the 7-bit RAS/CAS addresses of the smaller 16k chips; the code to select chip size has been removed, although it could be restored if you wanted to add support for other chips with compatible voltage requirements, like the older MK4027/4096 4K DRAMs.
 
-This code should work on any regular Arduino, but has only been tested on a knockoff Arduino Nano board. The pin designations in the original code have been redone to match the current numbering scheme in the Arduino IDE, and are arranged to facilitate straight-across wiring between the Nano package and a 4116 on a breadboard. Connect as follows (view text in raw format):
+This code should work on any regular Arduino, but has only been tested on a knockoff Arduino Nano board. The pin designations in the original code have been redone to match the current numbering scheme in the Arduino IDE, and are arranged to facilitate straight-across wiring between the Nano package and a 4116 on a breadboard. Connect as follows (view text in raw format for the ASCII art to work):
 
            4116
         +-------+
